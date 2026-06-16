@@ -1,0 +1,47 @@
+[33mcommit f6ed87d087c43e479666c8b13bcf507dda5b6fb5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Fuzail <devspace.fuzail@gmail.com>
+Date:   Tue Jun 16 14:56:12 2026 +0530
+
+    update version on main too
+
+[33mcommit cee226ff916630b56f4e4fc7b780788117a1aacd[m
+Author: Fuzail <devspace.fuzail@gmail.com>
+Date:   Tue Jun 16 14:53:46 2026 +0530
+
+    add version file on main
+
+[33mcommit 1e1b4c3b933501db0adf2439a68cc5a26fcdc95c[m[33m ([m[1;32mfeature/versioning[m[33m)[m
+Author: Fuzail <devspace.fuzail@gmail.com>
+Date:   Tue Jun 16 14:48:38 2026 +0530
+
+    version from feature branch
+
+[33mcommit cb32600308fe6b03c9166c51ca7d17e58a25b8b7[m
+Author: Fuzail <devspace.fuzail@gmail.com>
+Date:   Tue Jun 16 14:47:18 2026 +0530
+
+    version from main
+
+[33mcommit c6277ab4dd6e470b8f30a191d75055c9ff51be9e[m[33m ([m[1;32mfeature/user-login[m[33m)[m
+Author: Fuzail <devspace.fuzail@gmail.com>
+Date:   Tue Jun 16 14:43:17 2026 +0530
+
+    add validate function
+
+[33mcommit e63c72b41da13a77a03dde23fecc6a4a2c0cd096[m
+Author: Fuzail <devspace.fuzail@gmail.com>
+Date:   Tue Jun 16 14:42:25 2026 +0530
+
+    add login function skeleton
+
+[33mcommit 3a68f6a1e9915a3c5cfd59e2d668fd2729df6f4a[m
+Author: Fuzail <devspace.fuzail@gmail.com>
+Date:   Tue Jun 16 14:28:48 2026 +0530
+
+    intial commit
+
+[33mcommit 0906e97cf56dd61493199e1f47389f6c0d379251[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m, [m[1;32mfeature-branch[m[33m)[m
+Author: Fuzail <devspace.fuzail@gmail.com>
+Date:   Sun Jun 14 16:24:25 2026 +0530
+
+    Add file 1

@@ -1,1 +1,2 @@
 "config value = 123" 
+"config value = 999 (changed)" 
