@@ -1,25 +1,24 @@
+cat > .github/workflows/first-workflow.yml << 'EOF'
 name: My First Workflow
 
 on:
   push:
     branches: [main]
 
-jobs: 
+jobs:
   say-hello:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions.checkout@v3
-      
+        uses: actions/checkout@v3
+
       - name: Say hello
         run: echo "Hello Fuzail, GitHub Actions is working!"
-      
-      - name: show repo files
+
+      - name: Show repo files
         run: ls -la
 
       - name: Show current date
         run: date
-  
-  
-      
+EOF
