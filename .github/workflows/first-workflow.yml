@@ -1,4 +1,4 @@
-cat > .github/workflows/first-workflow.yml << 'EOF'
+
 name: My First Workflow
 
 on:
@@ -21,4 +21,3 @@ jobs:
 
       - name: Show current date
         run: date
-EOF
