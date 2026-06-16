@@ -6,18 +6,19 @@ on:
     branches: [main]
 
 jobs:
-  say-hello:
+  data-quality:
     runs-on: ubuntu-latest
 
-    steps:
+    steps: 
       - name: Checkout code
         uses: actions/checkout@v3
-
-      - name: Say hello
-        run: echo "Hello Fuzail, GitHub Actions is working!"
-
-      - name: Show repo files
-        run: ls -la
-
-      - name: Show current date
-        run: date
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install depedencies
+        run: pip install -r requirements.txt
+      - name: Lint code with flake8
+        run: flake8 pipeline.py --max-line-length=100
+      - name: Run data quality checks
+        run: python3 pipeline.py
