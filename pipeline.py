@@ -1,4 +1,3 @@
-
 def extract():
     data = [
         {"id": 1, "name": "Alice", "amount": 100},
@@ -7,12 +6,14 @@ def extract():
     ]
     return data
 
+
 def validate(data):
     errors = []
     for row in data:
         if row["amount"] is None:
             errors.append(f"Missing amount for id {row['id']}")
     return errors
+
 
 def run():
     data = extract()
