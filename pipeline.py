@@ -1,8 +1,9 @@
+
 def extract():
     data = [
         {"id": 1, "name": "Alice", "amount": 100},
         {"id": 2, "name": "Bob", "amount": 200},
-        {"id": 3, "name": "Charlie", "amount": None},
+        {"id": 3, "name": "Charlie", "amount": 300},
     ]
     return data
 
@@ -29,6 +30,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-
-
-# just a comment to test the pipeline
